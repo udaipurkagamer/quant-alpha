@@ -43,6 +43,12 @@ repo reimplements the core of the BRAIN simulator so that:
 
 ## Quick start
 
+**Easiest (no commands):** download/clone the repo, then
+- **Windows:** double-click `setup.bat` once, then `run.bat` any time.
+- **Mac/Linux:** `./setup.sh` once, then `./run.sh` (extra args pass through, e.g. `./run.sh --data yfinance`).
+
+These create a local `venv/` and install everything for you. Manual route:
+
 ```bash
 pip install -r requirements.txt
 python run.py                                      # full alpha library, offline synthetic data
